@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tratamento de Dados</title>
+    <style>
+            /* Comentário em CSS */
+    </style>
+</head>
+<body>
+    <!-- Comentário em HTML -->
+
+    <script>
+        /* // Comentário em
+                JavaScript */
+        var nome = window.prompt("Qual é seu nome?")
+        window.alert("É um grande prazer te conhecer " + nome + "!")
+        var n1 = Number(window.prompt("Digite um número " + nome + ".")) // parseInt() para inteiros
+        var n2 = Number(window.prompt("Digite outro número.")) // parseFloat() para reais
+        // pode usar parseInt(n), Number.parseInt(n) ou Number(n) o ultimo parece ser mais versátil e simples
+        // para passar de numero para string pode usar String(n) ou n.toString()
+        window.prompt("A soma dos números é: " + (n1 + n2))
+        // pode usar ao crase: window.prompt(`A soma dos números é ${n1+n2}`)
+        document.write(`Seu nome tem ${nome.length} letras.`) // x.toLowerCase() e x.toUpperCase()
+         
+    </script>
+</body>
+</html>
