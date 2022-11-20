@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idade e Sexo</title>
+    <link rel="stylesheet" href="estilo_site_idade.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        <div>
+            <p id="ano">Ano de Nascimento:</p> <input type="number" name="ano" id="ano">
+            <div>
+            <p id="sexo">Sexo:</p> <input type="radio" name="sexo" id="sexo-m" value="Homem" checked>
+            <label for="sexo-m">Masculino</label>
+            <input type="radio" name="sexo" id="sexo-f" value="Mulher">
+            <label for="sexo-f">Feminino</label>
+            </div>
+            <input id="verificar" type="button" value="Verificar" onclick="click()">
+        </div>
+        <div>
+            Preencha os dados acima para ver o resultado!
+            <img id="imagem" name="imagem"></img>
+        </div>
+    </section>
+    <footer>
+        <p><b><a href="https://github.com/ssantos777" style="color: white;">Github/ssantos77</a></b></p>
+    </footer>
+    <script src="script_site_idade.js"></script>
+</body>
+</html>

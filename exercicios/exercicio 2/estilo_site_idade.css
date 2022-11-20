@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(200, 60, 60);
+    font: normal 15pt Arial;
+}
+header {
+    color: white;
+    text-align: center;
+}
+p#ano {
+    margin-bottom: 2px;
+}
+input#ano {
+    margin-bottom: 20px;
+}
+p#sexo {
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+input#verificar {
+    margin-top: 14px;
+    margin-bottom: 20px;
+}
+section {
+    background: white;
+    margin: auto;
+    text-align: center;
+    width: 500px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.446);
+}
+footer {
+    text-align: center;
+}
