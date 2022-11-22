@@ -14,18 +14,19 @@ input#ano {
 }
 p#sexo {
     margin-top: 0px;
-    margin-bottom: 2px;
+    margin-bottom: 0px;
 }
 input#verificar {
-    margin-top: 14px;
-    margin-bottom: 20px;
+    margin: 2px;
+}
+img#imagem {
+    margin-top: 6px;
 }
 section {
     background: white;
     margin: auto;
     text-align: center;
     width: 500px;
-    height: 250px;
     border-radius: 10px;
     padding: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.446);

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Idade e Sexo</title>
+    <title>Verificador de Idade</title>
     <link rel="stylesheet" href="estilo_site_idade.css">
 </head>
 <body>
@@ -13,18 +13,17 @@
     </header>
     <section>
         <div>
-            <p id="ano">Ano de Nascimento:</p> <input type="number" name="ano" id="ano">
+            <p id="ano">Ano de Nascimento: <input type="number" name="ano" id="ano" min="0"></p> 
             <div>
-            <p id="sexo">Sexo:</p> <input type="radio" name="sexo" id="sexo-m" value="Homem" checked>
+            <p id="sexo">Sexo: <input type="radio" name="sexo" id="sexo-m" checked>
             <label for="sexo-m">Masculino</label>
-            <input type="radio" name="sexo" id="sexo-f" value="Mulher">
-            <label for="sexo-f">Feminino</label>
+            <input type="radio" name="sexo" id="sexo-f"">
+            <label for="sexo-f">Feminino</label></p>
             </div>
-            <input id="verificar" type="button" value="Verificar" onclick="click()">
+            <p><input id="verificar" type="button" value="Verificar" onclick="verificar()"></p>
         </div>
-        <div>
+        <div id="res" name="res">
             Preencha os dados acima para ver o resultado!
-            <img id="imagem" name="imagem"></img>
         </div>
     </section>
     <footer>
