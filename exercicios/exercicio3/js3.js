@@ -1,17 +1,24 @@
-var inicio = Number(document.getElementById("input#inicio"))
-var fim =   Number(document.querySelector("input#fim"))
-var passo = Number(document.getElementsByName("input#passo"))
-var str = String()
+function contar(){
+var inicio = Number(document.querySelector("input#inicio").value)
+var fim =   Number(document.querySelector("input#fim").value)
+var passo = Number(document.querySelector("input#passo").value)
+var str = String(" ")
+var contagem = document.querySelector("p#p1div2")
 
 if (inicio > fim){
-    for(inicio;inicio>=fim;inicio+passo){
-        str = str + `${inicio} 👉`
+    for(inicio;inicio==fim;inicio+passo){
+        str = `${str}${inicio} 👉 `
     }
-    str = str + "🏁"
-} else{
-    for(inicio;inicio<=fim;inicio-passo){
-        str = str + `${inicio} 👉`
+    str = `${str} 🏁`
+} else if (fim > inicio){
+    for(inicio;inicio==fim;inicio-passo){
+        str = `${str}${inicio} 👉 `
     }
-    str = str + "🏁"
+    str = `${str} 🏁`
+} else {
+    window.alert("Valores inválidos")
+}
+    
+    contagem.innerHTML = `${str}`
 }
 
