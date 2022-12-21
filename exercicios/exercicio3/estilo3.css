@@ -1,7 +1,7 @@
 body {
     background-color: blueviolet;
     text-align: center;
-    font: normal 14pt Arial;
+    font: normal 20pt Arial;
 }
 header{
     text-align: center;
@@ -10,7 +10,6 @@ header{
 section{
     background: rgb(210, 221, 240);
     width: 400px;
-    height: 400px;
     text-align: center;
     margin: auto;
     border-radius: 10px;
