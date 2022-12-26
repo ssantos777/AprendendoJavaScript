@@ -1,3 +1,8 @@
+// function ação(parametro, param){
+// return parametro retorno
+// }
+// ação(3) // chamada
+
 function parimpar(n){
     if (n%2==0){
         return "par"
@@ -32,6 +37,8 @@ var v = function(x){
 
 console.log(v(6)) // DOIDERAAAAAAAAAAAAAA
 
+// iterativo
+
 function fatorial(x){
     let fat = 1
     for (let c = x; c > 1; c--){
@@ -42,7 +49,7 @@ function fatorial(x){
 
 console.log(fatorial(5))
 
-//recursivo
+// recursivo
 
 function fatrec(x){
     if (x==1){

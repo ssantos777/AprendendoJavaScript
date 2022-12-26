@@ -1,0 +1,19 @@
+body {
+    font: normal 16pt Arial;
+    color: white;
+    background-color: sandybrown;
+    text-align: center;
+}
+section {
+    padding: 10px;
+    text-align: center;
+    color: black;
+    width: 500px;
+    margin: auto;
+    background-color: tomato;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.322);
+}
+footer {
+    padding: 10px;
+}
