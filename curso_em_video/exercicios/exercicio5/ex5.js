@@ -79,3 +79,19 @@ function verificar() {
                         <p>Somando todos os valores, temos ${soma}.</p>
                         <p>A média dos valores digitados é ${soma/arrayFin.length}</p>`
 }
+
+/*
+Pode-se usar os métodos do próprio ecmaScript que já nos fornecem o maior ou menor valor, 
+Math.min.apply(Math,vetor) e Math.max.apply(Math,vetor), onde em "vetor" colocamos o nome
+ do vetor criado, sem os [ ]. Estes métodos retornaram o menor ou maior valor.
+*/
+
+// guanabs usou input.focus() para limpar o input apos adicionar, gostei
+
+// esqueci de colocar a exceção caso a lista esteja vazia
+
+// pra nao fazer esse ultimo bloco de texto imenso era so usar innerHTML += `tal tal tal` innerHTML += `tal tal`
+
+// a lista limpa se for adicionar outro numero pq eu nao lembrava como o exercicio deveria funcionar pq tava sem net
+
+// nao precisava de dois for na ultima funcao aqui kkkkkkk podia so somar quando encontrasse o número
